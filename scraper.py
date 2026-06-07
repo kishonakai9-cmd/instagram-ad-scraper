@@ -111,7 +111,7 @@ async def main():
                 if name and name not in seen_names:
                     seen_names.add(name)
                     all_rows.append([
-                        '', name, '', '', ad.get('fbUrl', ''), '', 'Instagram', '', '', '', ''
+                        '', name, '', '', ad.get('fbUrl', ''), '', 'インスタ広告', '', '', '', ''
                     ])
 
             await asyncio.sleep(3)
